@@ -17,6 +17,4 @@
 5. 在react目录里（即A终端口）执行`npm run dev`，启动webpakc开发服务。
 6. 执行完`npm run dev`命令后，打开浏览器 `http://localhost:9090/`运行项目，后台服务端口为 `3000`
 
-## 效果预览
-![Mou icon](./jd.png)
 
