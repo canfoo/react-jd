@@ -27,3 +27,8 @@
 	height: 40px;
 	margin: 0 auto 4px auto;
 }
+
+.btn {
+	border-radius: 3px;
+	background: lightblue;
+}

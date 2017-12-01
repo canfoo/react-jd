@@ -29,9 +29,11 @@
   "dependencies": {
     "fetch-jsonp": "^1.0.6",
     "html-webpack-plugin": "^2.28.0",
+    "immutable": "^3.8.2",
     "json-loader": "^0.5.4",
     "json5-loader": "^0.6.0",
     "jsx-loader": "^0.13.2",
+    "lodash": "^4.17.4",
     "node-libs-browser": "1.0.0",
     "react": "15.0.1",
     "react-dom": "15.0.1"

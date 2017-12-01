@@ -1,15 +1,16 @@
 
 import './search.css';
-import React from 'react'; 
+import React from 'react';
 
 let Search = React.createClass({
 	getInitialState: function() {
 		return {
 			bg: "transparent",
+			times: 0
 		}
 	},
 	componentDidMount: function() {
-		
+
 		window.onscroll = (event) => {
 			let realHeight = document.documentElement.scrollTop || document.body.scrollTop;
 			let optatic = 0.8 * (realHeight/142);
@@ -20,7 +21,7 @@ let Search = React.createClass({
 			}
 		}
 	},
-	render: function() {
+ 	render: function() {
 		let bColor = this.state.bg ? this.state.bg : 'transprent';
 		return (
 			<div id="search" className="pf"  style={{ background: bColor }}>
