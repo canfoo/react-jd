@@ -15,6 +15,7 @@ body {
     color: #333;
     width: 100%;
     background: #fff;
+    padding: 1px;
 }
 
 input,
@@ -92,4 +93,10 @@ ul, li,  dl, dt, dd {
 
 .pf {
     position: fixed;
+}
+
+.box {
+  padding: 20px 15px;
+  margin: 10px 8px;
+  border: 1px solid #ddd;
 }
